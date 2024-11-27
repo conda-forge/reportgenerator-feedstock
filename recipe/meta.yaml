@@ -1,5 +1,5 @@
 {% set name = "reportgenerator" %}
-{% set version = "5.3.8" %}
+{% set version = "5.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/danielpalme/reportgenerator/archive/v{{ version }}.tar.gz
-  sha256: b7debcaec7af2d6b039bc6a0fd7da3e71163ad91ca17a614c269a9a6162a072e
+  sha256: f19a48d1fba98ee009a6034ba21bf8757855833e16f93a049eed7bbfdc3d7a54
 
 build:
   noarch: generic
