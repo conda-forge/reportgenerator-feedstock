@@ -28,3 +28,5 @@ tee ignored_packages.json << EOF
 ["Microsoft.DotNet.PlatformAbstractions"]
 EOF
 dotnet-project-licenses --input src/ReportGenerator.DotnetGlobalTool/ReportGenerator.DotnetGlobalTool.csproj -t -d license-files -ignore ignored_packages.json
+
+rm ${PREFIX}/bin/dotnet
