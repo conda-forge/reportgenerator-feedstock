@@ -1,5 +1,5 @@
 context:
-  version: "5.5.6"
+  version: "5.5.7"
 
 package:
   name: reportgenerator
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/danielpalme/reportgenerator/archive/v${{ version }}.tar.gz
-  sha256: 68d1ef28cb3025cb3742233a0be04b58927626eb0ad1271c4f7c295067875418
+  sha256: ce8e7296c20699910e69a99e6b0c1fabd04c6d276dde7bc7a9ac2c6b2ea68067
 
 build:
   number: 0
